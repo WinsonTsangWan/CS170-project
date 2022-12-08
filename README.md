@@ -15,9 +15,5 @@ The algorithm that we developed is a greedy graph traversal algorithm. We begin 
 
 We think this is a good approach because it allows us to minimize the second and third terms in the cost function while conceding the first term. Since the second and third terms grow exponentially and the first term grows polynomially, it is more valuable to reduce the second and third terms.
 
-Other approaches that we tried include dynamic programming and simulated annealing. In theory, they both would have been performed better than our current algorithm, but in reality, we were unsuccessful in creating functional implementations of these ideas.
-
-The only computational resources that we used were the hive machines.
-
 ## Instructions for running the algorithm
 In 'all_solvers.ipynb' jupyter notebook, there are 12 functions, each named solve(), listed under the headings "Solution #1-6" and "Other". To run our algorithm, simply define each solve() function one at a time, and then execute run_all() in main.ipynb on the test set using the currently defined solve() function. It is important to note that most of the solve() functions are very similar (naturally, because they are progressions of one another), but all of them have been preserved for the purpose of recreating results, so it is necessary to run them all.
