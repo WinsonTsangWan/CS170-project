@@ -1,6 +1,10 @@
 # Fall 2022 CS170 Project Skeleton
 This repository contains utility functions which might be helpful for solving the project.
 
+## Problem Statement
+Summary: Given a weighted, undirected graph, construct a graph coloring that minimizes the given cost function, which can be found in either the project spec or starter.py.
+Read the full project spec here: [CS170 Fall 2022 project spec](https://github.com/WinsonTsangWan/CS170-project/blob/master/CS170_project_spec.pdf)
+
 ## Requirements
 `python >= 3.6` is needed for `starter.py`, which contains a handful of utility functions, to run properly; it was, nevertheless, developed in python 3.9.  
 Jupyter Notebook is required should you prefer using `main.ipynb`.
