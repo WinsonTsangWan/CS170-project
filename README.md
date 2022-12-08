@@ -2,7 +2,7 @@
 This repository contains utility functions which might be helpful for solving the project.
 
 ## Problem Statement
-Summary: Given a weighted, undirected graph, construct a graph coloring that minimizes the given cost function, which can be found in either the project spec or starter.py.
+Summary: Given a weighted, undirected graph, construct a graph coloring that minimizes the given cost function, which can be found in either the project spec or starter.py.  
 Read the full project spec here: [CS170 Fall 2022 project spec](https://github.com/WinsonTsangWan/CS170-project/blob/master/CS170_project_spec.pdf)
 
 ## Requirements
@@ -21,3 +21,8 @@ We think this is a good approach because it allows us to minimize the second and
 
 ## Instructions for running the algorithm
 In 'all_solvers.ipynb' jupyter notebook, there are 12 functions, each named solve(), listed under the headings "Solution #1-6" and "Other". To run our algorithm, simply define each solve() function one at a time, and then execute run_all() in main.ipynb on the test set using the currently defined solve() function. It is important to note that most of the solve() functions are very similar (naturally, because they are progressions of one another), but all of them have been preserved for the purpose of recreating results, so it is necessary to run them all.
+
+## Final Leaderboard Position
+We were ranked #25 out of 241 competing teams.
+![leaderboard](https://github.com/WinsonTsangWan/CS170-project/blob/master/CS170_leaderboard_snippet.jpg)
+Full leaderboard can be found here: [complete leaderboard](https://github.com/WinsonTsangWan/CS170-project/blob/master/CS%20170%20Leaderboard.pdf)
